@@ -1,1 +1,33 @@
+                precision    recall  f1-score   support
 
+           0       0.88      0.87      0.87       151
+           1       0.61      0.63      0.62        49
+
+    accuracy                           0.81       200
+   macro avg       0.74      0.75      0.75       200
+weighted avg       0.81      0.81      0.81       200
+
+       Fraud_Probability Priority  Actual_Label
+56            0.997077     High             0
+919           0.995484     High             1
+561           0.995299     High             1
+183           0.993621     High             1
+60            0.992237     High             1
+914           0.991413     High             0
+625           0.989291     High             0
+251           0.986719     High             1
+514           0.985995     High             0
+888           0.982609     High             0
+
+Top Important Features for Fraud Prediction:
+                               Feature  Importance
+50               insured_hobbies_chess    0.095384
+51           insured_hobbies_cross-fit    0.086220
+78      incident_severity_Major Damage    0.084436
+59                insured_hobbies_polo    0.033618
+54                insured_hobbies_golf    0.030928
+70           insured_relationship_wife    0.026499
+53            insured_hobbies_exercise    0.020979
+39  insured_occupation_priv-house-serv    0.019966
+83          authorities_contacted_Fire    0.019566
+32     insured_occupation_armed-forces    0.018828
